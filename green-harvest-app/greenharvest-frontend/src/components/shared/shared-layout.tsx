@@ -79,7 +79,7 @@ const SharedLayout: React.FC<SharedLayoutProps> = ({ title, children }) => {
       </Grid>
       <Grid container spacing={2}>
             <Grid size={3}>
-                <Typography>Navigation Pane</Typography>
+                <Typography>Category</Typography>
             </Grid>
             <Grid size={9} padding={0}>
               <CustomTabPanel value={value} index={0}>
