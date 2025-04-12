@@ -5,7 +5,7 @@ import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import axios from 'axios';
+// import axios from 'axios';
 import SharedLayout from '../shared/shared-layout'; // Import the shared layout
 import { getProducts } from '../../services/api';
 import { TextField } from '@mui/material';
@@ -62,11 +62,11 @@ const ProductPage = () => {
   }
 
   return (
-    <SharedLayout title="Products">
+    <SharedLayout title="Product">
         {/* <Typography variant="h4" textAlign="center" mb={3}>Our Products</Typography> */}
         <Box>
           <TextField
-            label="Search Products"
+            label="Search Product"
             variant="outlined"
             value={searchTerm}
             onChange={handleSearch}
